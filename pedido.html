@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pastelito</title>
+    </head>
+    <body>
+        <img src="./assets/img/logo.png" alt="Logo Pastelito">
+        <h1>Haz Tu Pedido!</h1>
+        <hr>
+        <form action="#">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" placeholder="Pon aquí tu nombre">
+            <br><br>
+            <label for="tel">Teléfono: </label>
+            <input type="tel" id="tel" name="tel" placeholder="Pon aquí tu teléfono" maxlength="10">
+            <br><br>
+            <label for="mail">Correo: </label>
+            <input type="email" id="mail" name="mail" placeholder="Pon aquí tu correo">
+            <br><br>
+            <label for="descripcion">Como debe ser tu pastel? </label>
+            <br>
+            <textarea id="descripcion" name="descripcion" rows="5" cols="30" placeholder="Describe tu pastel, forma color, etc."></textarea>
+            <br>
+            <p>Seleciona el sabor (o conbinación de sabores): </p>
+            <input type="checkbox" id="chocolate" name="chocolate">
+            <label for="chocolate">Chocolate</label>
+            <br>
+            <input type="checkbox" id="fresa" name="fresa">
+            <label for="fresa">Fresa</label>
+            <br>
+            <input type="checkbox" id="frutos_rojos" name="frutos_rojos">
+            <label for="frutos_rojos">Frutos Rojos</label>
+            <br>
+            <input type="checkbox" id="crema_irlandesa" name="crema_irlandesa">
+            <label for="crema_irlandesa">Crema Irlandesa</label>
+            <br>
+            <input type="checkbox" id="tres_leches" name="tres_leches">
+            <label for="tres_leches">Tres Leches</label>
+            <br>
+            <p>Seleciona el tipo de decoración (pueden ser varios): </p>
+            <input type="checkbox" id="frutal" name="frutal">
+            <label for="frutal">Frutal</label>
+            <br>
+            <input type="checkbox" id="merengue" name="crema_pastelera">
+            <label for="crema_pastelera">Merengue</label>
+            <br>
+            <input type="checkbox" id="imagen_impresa" name="imagen_impresa">
+            <label for="imagen_impresa">Imagen Impresa</label>
+            <br>
+            <input type="checkbox" id="munecos" name="munecos">
+            <label for="munecos">Muñecos</label>
+            <br>
+            <p>¿Cual forma de entrega prefieres?</p>
+            <input type="radio" id="recoger" name="entrega">
+            <label for="recoger">Recoger en sucursal</label>
+            <br>
+            <input type="radio" id="enviar" name="entrega">
+            <label for="enviar">Enviar a domicilio</label>
+            <br><br>
+            <input type="reset">
+            <input type="submit">
+        </form>
+        <hr>
+         <a href="./index.html">
+            <button>Inicio</button>
+        </a>
+         <a href="./menu.html">
+             <button>Menú</button>
+         </a>
+    </body>
+</html>
